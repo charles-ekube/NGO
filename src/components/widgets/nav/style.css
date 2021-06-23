@@ -1,0 +1,28 @@
+.navbar {
+    /* width:100%; */
+    background:#fff;
+    padding:5px 150px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:#000;
+}
+
+.navbar-links {
+    width:50%;
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+}
+.navbar-links li {     
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    color: #151515;
+    width:100%;
+}
