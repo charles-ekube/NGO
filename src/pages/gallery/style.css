@@ -113,7 +113,7 @@
 .gallery-page-grid ul li  {
    margin:0;
    padding:0;
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 .gallery-page-grid ul li img {
     object-fit: cover;
