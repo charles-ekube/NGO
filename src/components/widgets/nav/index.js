@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import {Logo} from '../../../assets';
+import { DonateBtn } from '../../buttons';
 
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
                             Contact Us
                         </li>
                         <li>
-                            Donate
+                            <DonateBtn border_color='#027DC3' text_color='#027DC3'/>
                         </li>
                     </ul>
                 </nav>

@@ -62,15 +62,142 @@
     margin:0  auto;
 }
 .who-we-are-container {
-    padding: 30px 150px;
+    padding: 0 150px;
     background:#037EC4;
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    /* align-items:center; */
-    height:500px;
+    margin-bottom: 150px;
 }
 .who-we-are-container img {
     width:70%;
+    height:100%;
     position:relative;
-    top:40px;
+    top:60px;
+}
+.who-we-are-container article {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.who-we-are-container article h2 {
+    width: 271px;
+    height: 43px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 127.2%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.who-we-are-container article p {
+    width: 540px;
+    height: 197px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 153.68%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.why-container {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:50px 0 100px 200px;
+    gap:50px;
+}
+.why-container img {
+    width:100%;
+}
+.why-container article {
+    align-self: center;
+}
+.why-container article h2 {
+    width: 400px;
+    height: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 127.2%;
+    display: flex;
+    align-items: center;
+    color: #232323;
+}
+.why-container article p {
+    width: 400px;
+    height: 143px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 153.68%;
+    display: flex;
+    align-items: center;
+    color: #171717;
+}
+.mission-container {
+    padding: 70px 150px;
+    background: #FAFAFA;
+}
+.mission-header h2 {
+    width: 270px;
+    height: 33px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 127.2%;
+    display: flex;
+    align-items: center;
+    color: #232323;
+    margin: 10px auto;
+}
+.mission-header p {
+    width: 310px;
+    height: 26px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 153.68%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #171717;
+    margin: 20px  auto;
+}
+.missions-grid ul {
+    list-style:none;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:0 30px;
+    margin: 0;
+    padding:50px 0;
+}
+.missions-grid ul li {
+    border: 2px solid #037EC4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin:0;
+}
+.missions-grid ul li p {
+    width: 200px;
+    height: 61px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 127.7%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #037EC4;
 }

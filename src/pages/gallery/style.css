@@ -1,0 +1,127 @@
+#gallerya {
+    grid-area: a;
+}
+#galleryb {
+    grid-area: b;
+}
+#galleryc {
+    grid-area: c;
+}
+#galleryd {
+    grid-area: d;
+}
+#gallerye {
+    grid-area: e;
+}
+#galleryff {
+    grid-area: f;
+}
+#galleryg {
+    grid-area: g;
+}
+#galleryh {
+    grid-area: h;
+}
+#galleryi {
+    grid-area: i;
+}
+#galleryj {
+    grid-area: j;
+}
+#galleryk {
+    grid-area: k;
+}
+#galleryl {
+    grid-area: l;
+}
+#gallerym {
+    grid-area: m;
+}
+#galleryn {
+    grid-area: n;
+}
+#galleryo {
+    grid-area: o;
+}
+#galleryp {
+    grid-area: p;
+}
+#galleryq {
+    grid-area: q;
+}
+
+
+.gallery-intro-container {
+    background-image:url('../../assets/svg/gallery-hero.svg');
+    height:500px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top right;
+    width:100%;
+    position: relative;
+}
+.gallery-intro-overlay {
+    position:absolute;
+    width:100%;
+    height: 100%;
+    background:transparent;
+    display :flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.gallery-overlay-text {
+    padding:0 0 0 245px;
+}
+.gallery-overlay-text h2 {
+    width: 530px;
+    height: 188px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 105.2%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+.gallery-overlay-text p {
+    width: 506px;
+    height: 47px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 153.68%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding:20px 0;
+}
+.gallery-page-grid {
+    padding: 100px 150px;
+}
+.gallery-page-grid ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas: "a a b c" "a a d e" "f g h i" "j k l m" ;
+}
+.gallery-page-grid ul li  {
+   margin:0;
+   padding:0;
+   border: 1px solid red;
+}
+.gallery-page-grid ul li img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.show-more-container {
+    display:flex;
+    justify-content:center;
+    padding: 100px 0;
+}

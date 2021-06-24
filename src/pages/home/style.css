@@ -283,9 +283,10 @@
  }
  .projects-card {
     background:#fff;
+    transition: .5s;
 }
  .projects-card div:nth-child(2) {
-     padding:20px;
+     padding:15px;
     
  }
  .projects-card img {
@@ -310,7 +311,7 @@
      font-family: Open Sans;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 147.68%;
     display: flex;
     align-items: center;
@@ -318,6 +319,9 @@
     color: #000000;
     padding:0;
     margin:0;
+ }
+ .projects-card:hover {
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.16)); 
  }
  
  .projects-header {

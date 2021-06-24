@@ -1,10 +1,10 @@
-import {AboutUs} from './pages';
+import {Contact} from './pages';
 
 
 function App() {
   return (
     <>
-      <AboutUs/>
+      <Contact/>
     </>
   );
 }

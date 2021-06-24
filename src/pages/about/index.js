@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Navbar, Footer, JoinUs } from '../../components';
-import { WhoWeAre } from '../../assets';
+import { JoinUsHero, MissionF, MissionFR, MissionS, MissionT, Suffering, WhoWeAre } from '../../assets';
 
 
 const AboutUs = () => {
@@ -52,6 +52,51 @@ const AboutUs = () => {
                         </p>
                     </article>
                </section>
+               <section className='why-container'>
+                   <article>
+                        <h2>
+                        We exist to end needless suffering...
+                        </h2>
+                        <p>
+                        Over 2million Children in different countries of Africa suffer needlessly from hunger, 
+                        lack of adequate and sufficient quality water, sickness and poverty. In more cases than one, 
+                        the little ones die for no just cause , they die for little reasons like lack of water. 
+                        They suffer endlessly for want of shelter. Hunger claims lives everyday. 
+                        </p>
+                   </article>
+                   <div>
+                       <img src={Suffering} alt='poster'/>
+                   </div>
+               </section>
+                <section className='mission-container'>
+                    <div className='mission-header'>
+                        <h2>Our Mission</h2>
+                        <p>With broken hearts, we sincerely seek to </p>
+                    </div>
+                    <div className='missions-grid'>
+                        <ul>
+                            <li>
+                                <img src={MissionF} alt='poster'/>
+                                <p>End the needless suffering of the little ones </p>
+                            </li>
+                            <li>
+                                <img src={MissionS} alt='poster'/>
+                                <p>Reduce the level of poverty in 3rd world countries like Nigeria,extended to other countries of Africa. </p>
+                            </li>
+                            <li>
+                                <img src={MissionT} alt='poster'/>
+                                <p>Provide Quality/Portable water for communities.</p>
+                            </li>
+                            <li>
+                                <img src={MissionFR} alt='poster'/>
+                                <p>Launch an attack on intellectual poverty, improving and providing Education for the less privileged. </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <JoinUs bgImg={JoinUsHero}/>
+                </section>
             </main>
             <Footer />
         </>

@@ -1,0 +1,17 @@
+.donate-btn {
+    width: 150px;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: ; */
+    background: inherit;
+    border:1px solid;
+    padding:10px;
+    letter-spacing:1px;
+}
