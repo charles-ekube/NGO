@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Navbar , Footer, JoinUs} from '../../components';
+import { Navbar , Footer, JoinUs, ShowMoreBtn } from '../../components';
 import { F, G, GalleryF, GalleryFI, GalleryFR, GalleryS, GalleryT, J, K, L, M, H, I, JoinUsHero } from '../../assets';
 
 
@@ -19,7 +19,6 @@ const Gallery = () => {
                             <p>
                                 Lets come together and eradicate poverty and hunger once and for all from our communities
                             </p>
-                            <button>Donate</button>
                         </div>
                     </div>
                 </section>
@@ -67,9 +66,7 @@ const Gallery = () => {
                         
                     </ul>
                     <div className='show-more-container'>
-                        <button>
-                            Show More
-                        </button>
+                        <ShowMoreBtn/>
                     </div>
                 </section>
                 <section>

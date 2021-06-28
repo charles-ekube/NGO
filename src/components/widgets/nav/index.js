@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link to="/contact">Contact Us</Link>
             </li>
             <li>
-              <DonateBtn border_color="#027DC3" text_color="#027DC3" />
+              <DonateBtn border_color="#027DC3" text_color="#027DC3" bgColor='inherit' />
             </li>
           </ul>
         </nav>

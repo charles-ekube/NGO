@@ -1,17 +1,29 @@
-.donate-btn {
-    /* width: 150px; */
-    border-radius: 5px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* color: ; */
-    background: inherit;
-    border:1px solid;
-    padding:10px ;
-    letter-spacing:1px;
-}
+    .donate-btn {
+        width: 150px;
+        border-radius: 5px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:10px ;
+        letter-spacing:1px;
+    }
+    .showmore-btn {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #828282;
+        border: 0.5px solid #828282;
+        border-radius: 5px;
+        background:inherit;
+        padding:10px 40px;
+    }
+

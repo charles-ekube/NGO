@@ -21,7 +21,7 @@
     padding:0 0 0 245px;
 }
 .about-overlay-text h2 {
-    width: 530px;
+    width: 600px;
     height: 188px;
     font-family: Open Sans;
     font-style: normal;
@@ -117,8 +117,7 @@
     align-self: center;
 }
 .why-container article h2 {
-    width: 400px;
-    height: 88px;
+    width: 500px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;

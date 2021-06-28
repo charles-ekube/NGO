@@ -19,7 +19,6 @@ const AboutUs = () => {
                             <p>
                                 Lets come together and eradicate poverty and hunger once and for all from our communities
                             </p>
-                            <button>Donate</button>
                         </div>
                     </div>
                 </section>

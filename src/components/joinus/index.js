@@ -14,7 +14,7 @@ const JoinUs = ({bgImg}) => {
               it happen
             </p>
             <div style={{marginTop:'40px'}}>
-              <DonateBtn border_color='#fff' text_color='#fff'/>
+              <DonateBtn border_color='#fff' text_color='#fff' bgColor='inherit'/>
             </div>
           </div>
         </div>

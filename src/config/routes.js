@@ -1,5 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import { AboutUs, Contact, Gallery, Home, ProjectDisplay, Projects } from '../pages';
+
 
 
 const routes = [

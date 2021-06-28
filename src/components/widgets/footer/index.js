@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="footer-contact">
                     <h5>CONTACT</h5>
                     <address>
-                    Sanctuary of God avenue Apo Ressetlement Zone B abuja
+                    Sanctuary of God avenue Apo Resettlement Zone B Abuja. <br/>
                     +234 816 564 1972, +234 812 176 8832
                     <br/>
                     <span>info@sohcf.org</span>

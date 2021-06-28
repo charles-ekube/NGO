@@ -1,7 +1,19 @@
 import React from "react";
 import "./style.css";
-import { Navbar, Footer, JoinUs } from "../../components";
-import { ArrowRight, Val, Valentine, ArrowRightBlack, JoinHero } from "../../assets";
+import { Navbar, Footer, JoinUs, Card, DonateBtn } from "../../components";
+import {
+  ArrowRight,
+  Val,
+  Valentine,
+  ArrowRightBlack,
+  JoinHero,
+  GalleryF,
+  GalleryS,
+  GalleryT,
+  GalleryFR,
+  GalleryFI,
+} from "../../assets";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,7 +28,9 @@ const Home = () => {
                 Lets come together and eradicate poverty and hunger once and for
                 all from our communities
               </p>
-              <button>Donate</button>
+              <div>
+                <DonateBtn border_color="#fff" text_color="#027DC3" bgColor='#fff'/>
+              </div>
             </div>
             <div className="intro-overlay-offset">
               <div className="valentine-post">
@@ -53,95 +67,58 @@ const Home = () => {
         <section className="gallery">
           <div className="gallery-header">
             <h2>Our Gallery</h2>
-            <p>
+            <Link to='/gallery'>
               VIEW ALL PHOTOS
               <img src={ArrowRightBlack} alt="poster" />
-            </p>
+            </Link>
           </div>
           <div className="gallery-grid">
-            <div id="galleryf">
-              <div className="galleryf-overlay">
-                <div className="galleryf-overlay-content">
-                  <span>13 AUG, 2020</span>
-                  <h5>Construction of School</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Massa.
-                  </p>
+            <ul>
+              <li id="galleryf">
+                <img src={GalleryF} alt="poster" />
+                <div className="galleryf-overlay">
+                  <div className="galleryf-overlay-content">
+                    <span>13 AUG, 2020</span>
+                    <h5>Construction of School</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Massa.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <ul>
-                <li id="gallerys"></li>
-                <li id="galleryt"></li>
-                <li id="galleryfr"></li>
-                <li id="galleryfi"></li>
-              </ul>
-            </div>
+              </li>
+              <li id="gallerys">
+                <img src={GalleryS} alt="poster" />
+              </li>
+              <li id="galleryt">
+                <img src={GalleryT} alt="poster" />
+              </li>
+              <li id="galleryfr">
+                <img src={GalleryFR} alt="poster" />
+              </li>
+              <li id="galleryfi">
+                <img src={GalleryFI} alt="poster" />
+              </li>
+            </ul>
           </div>
         </section>
         <section className="projects-container">
           <div className="projects-header">
             <h2>Projects Highlights</h2>
-            <p>
+            <Link to='/projects'>
               LEARN MORE
               <img src={ArrowRight} alt="poster" />
-            </p>
+            </Link>
           </div>
           <div className="projects-grid">
-            <div className="projects-card">
-              <div>
-                <img src={Val} alt="poster" />
-              </div>
-              <div>
-                <h4>Construction of School</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Massa.
-                </p>
-              </div>
-            </div>
-            <div className="projects-card">
-              <div>
-                <img src={Val} alt="poster" />
-              </div>
-              <div>
-                <h4>Construction of School</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Massa.
-                </p>
-              </div>
-            </div>
-            <div className="projects-card">
-              <div>
-                <img src={Val} alt="poster" />
-              </div>
-              <div>
-                <h4>Construction of School</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Massa.
-                </p>
-              </div>
-            </div>
-            <div className="projects-card">
-              <div>
-                <img src={Val} alt="poster" />
-              </div>
-              <div>
-                <h4>Construction of School</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Massa.
-                </p>
-              </div>
-            </div>
-          </div>
+              <Card/>
+              <Card/>
+              <Card/>
+              <Card/>
+           </div>
         </section>
         <section>
-          <JoinUs bgImg={JoinHero}/>
+          <JoinUs bgImg={JoinHero} />
         </section>
       </main>
       <Footer />
