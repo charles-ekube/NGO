@@ -64,7 +64,7 @@ const Contact = () => {
             <JoinUs bgImg={JoinUsHero} />
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

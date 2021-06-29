@@ -13,7 +13,7 @@ const JoinUs = ({bgImg}) => {
               We envision a world without poverty or hunger. <br /> Let's make
               it happen
             </p>
-            <div style={{marginTop:'40px'}}>
+            <div className='donate-btn-container'>
               <DonateBtn border_color='#fff' text_color='#fff' bgColor='inherit'/>
             </div>
           </div>

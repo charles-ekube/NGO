@@ -16,20 +16,21 @@
         background: rgba(0, 0, 0, 0.6);
         display :flex;
         flex-direction: column;
-        justify-content:flex-end;
-        align-items: flex-end;
+        justify-content:center;
+        align-items: center;
         
     }
     .overlay-text {
-        padding: 100px 10px 0 10px;
-        margin: auto;
+        padding: 50px 10px 0 10px;
+        text-align: center;
+        
     }
     .overlay-text h2 {
         width: 100%;
         font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 127.18%;
         display: flex;
         align-items: center;
@@ -42,11 +43,17 @@
         font-family: Nunito Sans;
         font-style: normal;
         font-weight: 300;
-        font-size: 17px;
+        font-size: 20px;
         line-height: 153.68%;
         display: flex;
         align-items: center;
         color: #FFFFFF;
+    }
+    .donate-btn-container {
+        width:100%;
+        /* margin-top: 40px; */
+        display: flex;
+        justify-content:center;
     }
     .intro-overlay-offset {
         position:relative;
@@ -72,6 +79,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 10px 0;
+        /* text-align: center; */
     }
     .valentine-post span {
         height: 14px;
@@ -88,7 +96,7 @@
         font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 28px;
         line-height: 110.18%;
         display: flex;
         align-items: center;
@@ -101,7 +109,7 @@
         font-family: Nunito Sans;
         font-style: normal;
         font-weight: 300;
-        font-size: 13px;
+        font-size: 20px;
         line-height: 118.68%;
         display: flex;
         align-items: center;
@@ -111,7 +119,7 @@
     }
     .more-val {
         padding-left:0;
-        justify-self: flex-end;
+        justify-self: center;
     }
     .more-val p{
         height: 19px;
@@ -130,7 +138,7 @@
         margin-left: 10px;
     }
     .gallery {
-        padding:30px 10px 50px 10px;
+        padding:30px 10px 100px 10px;
         position: relative;
     }
     .gallery-header {
@@ -150,8 +158,11 @@
     }
     .gallery-header a {
         position: absolute;
-        bottom:20px;
-        right:10px;
+        bottom:30px;
+        width:90%;
+        left: 10px;
+        right: 10px;
+        margin: auto;
         font-family: Open Sans;
         font-style: normal;
         font-weight: 800;
@@ -159,13 +170,14 @@
         line-height: 127.18%;
         display: flex;
         align-items: center;
+        justify-content: center;
         letter-spacing: -0.03em;
         color: #333333;
         text-decoration:none;
     }
     .gallery-header a img {
         height:10px;
-        margin-left:10px;
+        margin-left:5px;
     }
     #gallerys {
         grid-area:gs;
@@ -186,7 +198,7 @@
     .gallery-grid ul {
         display:grid;
         grid-template-columns:repeat(1, 1fr);
-        gap:10px ;
+        gap:30px ;
         grid-template-areas: "gf" "gs" "gt" "gfr" "gfi";
         list-style:none;
         margin:0;
@@ -214,7 +226,7 @@
      .galleryf-overlay-content {
          position:absolute;
          bottom:40px;
-         padding:0 0 0 50px;
+         padding:0 0 0 10px;
      }
      .galleryf-overlay span {
         padding:10px 0;
@@ -246,7 +258,7 @@
         font-family: Open Sans;
         font-style: normal;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 147.68%;
         display: flex;
         align-items: center;
@@ -263,7 +275,7 @@
      .projects-grid {
          display:grid;
          grid-template-columns:repeat(1, 1fr);
-         gap:20px;
+         gap:30px;
      }
      
      .projects-header {
@@ -285,7 +297,7 @@
         color: #FFFFFF;
     }
     .projects-header a {
-        height: 19px;
+        width:90%;
         font-family: Open Sans;
         font-style: normal;
         font-weight: 800;
@@ -293,12 +305,15 @@
         line-height: 127.18%;
         display: flex;
         align-items: center;
+        justify-content: center;
         letter-spacing: -0.03em;
         color: #FFFFFF;
         text-decoration:none;
         position: absolute;
         bottom: 30px;
         right: 10px;
+        left: 10px;
+        margin:auto;
     }
     .projects-header a img {
         height:10px;

@@ -28,7 +28,7 @@ const Home = () => {
                 Lets come together and eradicate poverty and hunger once and for
                 all from our communities
               </p>
-              <div>
+              <div className='donate-btn-container'>
                 <DonateBtn border_color="#fff" text_color="#027DC3" bgColor='#fff'/>
               </div>
             </div>

@@ -47,6 +47,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items:center;
     justify-content:center;
+   
     }
   .navbar-logo {
     height:100%;
@@ -71,6 +72,7 @@
     left: 0;
     top: 50px;
     z-index: 5;
+    background:#fff;
   }
 .mobile-navbar-links {
   width:100%;
