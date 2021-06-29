@@ -32,7 +32,10 @@ const Home = () => {
                 <DonateBtn border_color="#fff" text_color="#027DC3" bgColor='#fff'/>
               </div>
             </div>
-            <div className="intro-overlay-offset">
+          </div>
+        </section>
+        <section className='intro-overlay-offset'>
+        
               <div className="valentine-post">
                 <img src={Valentine} alt="poster" />
                 <div>
@@ -61,10 +64,8 @@ const Home = () => {
                   <img src={ArrowRight} alt="poster" />
                 </p>
               </div>
-            </div>
-          </div>
         </section>
-        <section className="gallery">
+         <section className="gallery">
           <div className="gallery-header">
             <h2>Our Gallery</h2>
             <Link to='/gallery'>
@@ -121,7 +122,7 @@ const Home = () => {
           <JoinUs bgImg={JoinHero} />
         </section>
       </main>
-      <Footer />
+      {/* <Footer />  */}
     </>
   );
 };

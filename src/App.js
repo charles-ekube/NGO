@@ -4,7 +4,6 @@ import AppRoutes from "./components/approutes";
 import routes from "./config/routes";
 
 function App() {
-  console.log("i run at app.js")
   return (
     <>
       <Router>

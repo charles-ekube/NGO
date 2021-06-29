@@ -1,29 +1,55 @@
-    .donate-btn {
-        width: 150px;
-        border-radius: 5px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding:10px ;
-        letter-spacing:1px;
-    }
-    .showmore-btn {
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        color: #828282;
-        border: 0.5px solid #828282;
-        border-radius: 5px;
-        background:inherit;
-        padding:10px 40px;
-    }
+.donate-btn {
+  width: 150px;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.showmore-btn {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+  border: 0.5px solid #828282;
+  border-radius: 5px;
+  background: inherit;
+  padding: 10px 40px;
+}
+.nav-toggle-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 40px;
+  padding: 5px 0 5px 5px;
+  border: none;
+  z-index: 2;
+  background: inherit;
+  outline: #ccc;
+}
 
+.nav-toggle-btn span {
+  border: 1px solid #000;
+  width: 90%;
+  margin: 0 0 2px 0;
+  background: #000;
+}
+.nav-toggle-btn span:nth-child(2) {
+  width: 70%;
+  margin-top: 2px;
+}
+.nav-toggle-btn span:nth-child(3) {
+  width: 50%;
+  margin-top: 2px;
+}
