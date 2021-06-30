@@ -18,7 +18,7 @@
         justify-content:center;
     }
     .contact-overlay-text {
-        padding:0 10px;
+        padding:0 20px;
         text-align: center;
     }
     .contact-overlay-text h2 {
@@ -26,7 +26,7 @@
         font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 35px;
         line-height: 105.2%;
         display: flex;
         align-items: center;
@@ -46,7 +46,7 @@
         padding:20px 0;
     }
     .contact-grid {
-        padding: 50px 10px;
+        padding: 50px 20px;
         display:grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
@@ -162,6 +162,7 @@
         box-sizing: border-box;
         border-radius: 5px;
         margin-bottom: 50px;
+        padding: 10px;
     }
     .contact-form-container button {
         height: 50px;

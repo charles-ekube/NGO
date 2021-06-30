@@ -21,7 +21,7 @@
         
     }
     .overlay-text {
-        padding: 50px 10px 0 10px;
+        padding: 50px 20px 0 20px;
         text-align: center;
         
     }
@@ -59,7 +59,7 @@
         position:relative;
         top:0;
         margin-left: 0;
-        padding: 30px 10px;
+        padding: 30px 20px;
         background: #037EC4;
         display:grid;
         grid-template-columns: repeat(1, 1fr);
@@ -138,7 +138,7 @@
         margin-left: 10px;
     }
     .gallery {
-        padding:30px 10px 100px 10px;
+        padding:30px 20px 100px 20px;
         position: relative;
     }
     .gallery-header {
@@ -198,7 +198,7 @@
     .gallery-grid ul {
         display:grid;
         grid-template-columns:repeat(1, 1fr);
-        gap:30px ;
+        gap:20px ;
         grid-template-areas: "gf" "gs" "gt" "gfr" "gfi";
         list-style:none;
         margin:0;
@@ -269,13 +269,13 @@
     
      .projects-container {
         background: #037EC4;
-        padding:30px 10px 100px 10px;
+        padding:30px 20px 100px 20px;
         position: relative;
      }
      .projects-grid {
          display:grid;
          grid-template-columns:repeat(1, 1fr);
-         gap:30px;
+         gap:20px;
      }
      
      .projects-header {

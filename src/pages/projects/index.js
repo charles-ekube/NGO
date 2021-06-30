@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { JoinUsHero, Val } from '../../assets';
-import { Navbar, Footer, JoinUs } from '../../components';
+import { Navbar, Footer, JoinUs, ShowMoreBtn, Card } from '../../components';
 import './style.css';
 
 
@@ -19,173 +20,21 @@ const Projects = () => {
                             <p>
                                 Lets come together and eradicate poverty and hunger once and for all from our communities
                             </p>
-                            <button>Donate</button>
                         </div>
                     </div>
                 </section>
                 <section className='projects-page-grid'>
-                    <ul>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                        <li>
-                        <div className='projects-card'>
-                            <div>
-                                <img src={Val} alt='poster'/>
-                            </div>
-                            <div>
-                                <h4>Construction of School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa. 
-                                </p>
-                            </div>
-                        </div>
-                        </li>
-                    </ul>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                     <div className='show-more-container'>
-                        <button>
-                            Show More
-                        </button>
+                        <ShowMoreBtn/>
                     </div>
                 </section>
                 <section>
