@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { JoinUsHero, Val } from "../../assets";
+import { JoinUsHero } from "../../assets";
 import { Navbar, Footer, JoinUs, ShowMoreBtn, Card } from "../../components";
 import "./style.css";
 
