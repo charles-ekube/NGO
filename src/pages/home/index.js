@@ -122,7 +122,7 @@ const Home = () => {
           <JoinUs bgImg={JoinHero} />
         </section>
       </main>
-      {/* <Footer />  */}
+      <Footer /> 
     </>
   );
 };
