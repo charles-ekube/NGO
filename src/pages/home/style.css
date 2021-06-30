@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 200px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 620px) and (-webkit-min-device-pixel-ratio: 1) {
     .intro-container {
         background-image:url('../../assets/svg/home-hero.svg');
         height:530px;
@@ -34,6 +34,7 @@
         line-height: 127.18%;
         display: flex;
         align-items: center;
+        justify-content:center;
         letter-spacing: -0.03em;
         color: #FFFFFF;
         margin: 0;
@@ -320,8 +321,339 @@
         margin-left:20px;
     }
 }
+
+
+@media only screen and (min-device-width: 621px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 1) {
+    .intro-container {
+        background-image:url('../../assets/svg/home-hero.svg');
+        height:530px;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        width:100%;
+        position: relative;
+    }
     
-@media only screen and (min-device-width: 769px) and (-webkit-min-device-pixel-ratio: 1) {
+    .intro-overlay {
+        position:absolute;
+        width:100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display :flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    .overlay-text {
+        padding: 50px 20px 0 20px;
+        text-align: center;
+        
+    }
+    .overlay-text h2 {
+        width: 100%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .overlay-text p {
+        width: 100%;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 153.68%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .donate-btn-container {
+        width:100%;
+        /* margin-top: 40px; */
+        display: flex;
+        justify-content:center;
+    }
+    .intro-overlay-offset {
+        position:relative;
+        top:0;
+        margin-left: 0;
+        padding: 30px 20px;
+        background: #037EC4;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items:center;
+        gap: 20px;
+    }
+    .valentine-post {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .valentine-post img {
+        margin-right:0;
+    }
+    .valentine-post>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0;
+        /* text-align: center; */
+    }
+    .valentine-post span {
+        height: 14px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 118.68%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .valentine-post h4 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 110.18%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin: 0;
+        padding:5px 0;
+    }
+    .valentine-post p {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 118.68%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin: 0;
+        padding:5px 0;
+    }
+    .more-val {
+        padding-left:0;
+        grid-column:1/3;
+        justify-self: center;
+    }
+    .more-val p{
+        height: 19px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+    .more-val p img {
+        height:10px;
+        margin-left: 10px;
+    }
+    .gallery {
+        padding:30px 20px 100px 20px;
+        position: relative;
+    }
+    .gallery-header {
+        display :flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .gallery-header h2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        color: #037EC4;
+    }
+    .gallery-header a {
+        position: absolute;
+        bottom:30px;
+        width:90%;
+        left: 10px;
+        right: 10px;
+        margin: auto;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -0.03em;
+        color: #333333;
+        text-decoration:none;
+    }
+    .gallery-header a img {
+        height:10px;
+        margin-left:5px;
+    }
+    #gallerys {
+        grid-area:gs;
+    }
+    #galleryt {
+        grid-area:gt;
+    }
+    #galleryfr {
+        grid-area:gfr;
+    }
+    #galleryfi {
+        grid-area:gfi;
+    }
+    #galleryf {
+        grid-area: gf;
+        position:relative;
+     }
+    .gallery-grid ul {
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:20px ;
+        grid-template-areas: "gf gs" "gf gt" "gfr gfi";
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    .gallery-grid ul li {
+        margin:0;
+        padding:0;
+    }
+    .gallery-grid ul li img {
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+    
+     .galleryf-overlay {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        background: linear-gradient(180deg, rgba(69, 69, 69, 0) 0%, #3C3A39 100%);
+        mix-blend-mode: normal;
+     }
+     .galleryf-overlay-content {
+         position:absolute;
+         bottom:40px;
+         padding:0 0 0 10px;
+     }
+     .galleryf-overlay span {
+        padding:10px 0;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+     .galleryf-overlay h5 {
+        padding:0 0 10px 0;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin:0;
+    }
+     .galleryf-overlay p {
+        height: 25.86px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 147.68%;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin:0;
+     }
+    
+     .projects-container {
+        background: #037EC4;
+        padding:30px 20px 100px 20px;
+        position: relative;
+     }
+     .projects-grid {
+         display:grid;
+         grid-template-columns:repeat(2, 1fr);
+         gap:20px;
+     }
+     
+     .projects-header {
+        display :flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 0;
+    }
+    .projects-header h2 {
+        height: 27px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .projects-header a {
+        width:90%;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 127.18%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        text-decoration:none;
+        position: absolute;
+        bottom: 30px;
+        right: 10px;
+        left: 10px;
+        margin:auto;
+    }
+    .projects-header a img {
+        height:10px;
+        margin-left:20px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-device-width: 1001px) and (-webkit-min-device-pixel-ratio: 1) {
     .intro-container {
         background-image:url('../../assets/svg/home-hero.svg');
         height:750px;
